@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStripMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="richTextBoxReademe.Text" xml:space="preserve">
+    <value>
+Teodor Cotruta, 10/01/2016
+
+Employee monthly payslip assumptions, analysis, design, architecture, testing
+
+Assumptions and constraints
+        - the employee has been working for the full month, so we don't take into account that she/he may've started within the month we calculate the payslip for
+        - super rate is an integer between 0 and 99, no 100%, no negative values can be entered in the text box for the rate
+        - money values are decimals and we use "decimal" type in csharp
+        - annual salary entry is limited to integers up to 7 numbers
+
+Main Use Case: Get the payslip
+Scenario:
+        Start
+        1. get info from user input: user salary, payslip period, super rate
+        2. search for an existing payslip for the employee+period
+        2.1 if payslip is not found
+        2.2 find rates for the employee salary
+        2.3 calculates the pay slip
+        2.4 stores the pay slip in a file or database
+        3. get the payslip from the storage 
+        4. display the payslip
+        End
+
+Data setup, 
+	-option 1: with tax ranges, hardcoded like in the problem
+	-option 2: with dynamic ranges, if the intervals+ tax change, then we can reconfgure the program
+	-IRD data may change, so we could have a data feed from IRD, say every 3 months. the program should be dynamic to account for changes in the rates+intervals
+	option 2 would be better
+	-setup all personel, as a one off, then add and remove employees. This will require a crudfunctionality
+Calculation
+	-on demand, which means the payslip is created when the user first wants to see it, then stored
+	-on a scheduler (monthly basis). All payslips are calculated and stored.
+Get the payslip
+	-if the payslips were calculated monthly, and stored, to get the payslip is just a GET operation
+	-if the payslips are done on demand, then the precondition is to calculate it, store it, then GET
+		next time the same payslip will require a GET only
+Security
+	- login on to the system
+	- can't see the payslips of another person
+	- roles: admin, employee with various access levels
+
+Architecture
+	- data in sql server, for this exercise in csv files
+		this will contain all the info, rules, ird info, payslips
+	- model: calculation in C#, persist payslips in "data", persist/update info from ird in "data"
+		retrieve payslips from "data"
+	- view in c#, consumes REST services from the "model".
+		wireframes are required here
+	-- the above could be using the mvc
+	- web view, for users to get payslips remotely: dynamic html, some ajax, jquery, javascript
+		still part of the mvc
+	- web view could use REST services, consuming json.
+
+Extendable
+	design, architecture and code have to be such that we can extend the application to meet new requirements: 
+		the constraints, data storage, desktop-&gt;web
+
+Testing
+	cucumber from the main use cases
+	nunit
+	integration testing
+	- test data defined
+- documentation
+	- requirements
+	- all of the above
+	- data model
+	- main use cases: get payslip, calculate payslip, update tax info
+
+
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+</root>

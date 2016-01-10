@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayslipDesktop", "PayslipDesktop\PayslipDesktop.csproj", "{0E1E59B2-C186-4ADF-B2A1-C0EA538EC4C9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TeoPayslipSetup", "PayslipSetup2\PayslipSetup2.vdproj", "{07CC1F3C-E66B-4AAF-B379-EE3781033AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayslipNunit", "PayslipNunit\PayslipNunit.csproj", "{66DA3E4C-6ADF-4B10-83F6-8AB285E18148}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E1E59B2-C186-4ADF-B2A1-C0EA538EC4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1E59B2-C186-4ADF-B2A1-C0EA538EC4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1E59B2-C186-4ADF-B2A1-C0EA538EC4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1E59B2-C186-4ADF-B2A1-C0EA538EC4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1E59B2-C186-4ADF-B2A1-C0EA538EC4C9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{07CC1F3C-E66B-4AAF-B379-EE3781033AB3}.Debug|Any CPU.ActiveCfg = Debug
+		{07CC1F3C-E66B-4AAF-B379-EE3781033AB3}.Release|Any CPU.ActiveCfg = Release
+		{66DA3E4C-6ADF-4B10-83F6-8AB285E18148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DA3E4C-6ADF-4B10-83F6-8AB285E18148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DA3E4C-6ADF-4B10-83F6-8AB285E18148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DA3E4C-6ADF-4B10-83F6-8AB285E18148}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
