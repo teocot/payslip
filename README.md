@@ -1,4 +1,4 @@
 # payslip
 payslip demo app 
-Details at: http://jewelryonpc.com/
+Details at: http://teoprograms.com/payslip
 
